@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #F1F1F1;
+}
+
+.main {
+    margin: 0 50px;
+}
+
+.header-blog {
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    height: 180px;
+}
+
+.header-blog-name {
+    margin: 20px;
+    font-size: 36px;
+}
+
+.header-blog-title {
+    font-size: 14px;
+}
+
+.header-blog-title span {
+    background-color: #000;
+    color: #fff;
+    font-size: 13px;
+    padding: 1px 7px;
+}
+
+
+/* container */
+
+.container {
+    display: flex;
+}
+
+.content-left {
+    width: 65%;
+    margin: 0 17px;
+}
+
+.card {
+    background-color: #fff;
+    margin-bottom: 35px;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.6);
+}
+
+.card-body {
+    padding: 0 18px;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-title {
+    padding: 10px 0;
+}
+
+.card-time {
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.card-time span {
+    color: #858585;
+}
+
+.card-content {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 25px 0;
+}
+
+.card-btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.card-btn .btn {
+    border: 1px solid #ccc;
+    padding: 0px 25px 0px;
+    font-size: 15px;
+    margin: 7px 0px;
+    /* line-height: 30px; */
+    font-weight: 500;
+    background-color: #fff;
+}
+
+.card-btn .btn i {
+    font-size: 13px;
+}
+
+.card .btn:hover {
+    background-color: #ccc;
+}
+
+.card-btn .card-cmt {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.card-btn .card-cmt span {
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    margin-left: 5px;
+    padding: 1px 7px;
+    font-weight: 400;
+}
+
+
+/* content right */
+
+.content-right {
+    width: 35%;
+    margin: 0 17px;
+}
+
+.navbar,
+.tag {
+    margin-bottom: 25px;
+    background-color: #fff;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.6);
+}
+
+.nav-title,
+.tag-title {
+    font-size: 20px;
+    padding: 25px 17px;
+    background-color: #e1e1e1;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-item {
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav-item:hover {
+    background-color: #ccc;
+}
+
+.nav-item .nav-item-img {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-name {
+    padding: 0 10px;
+}
+
+.nav-name .nav-name-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+
+/* tag */
+
+.tag .tag-body {
+    padding: 17px;
+}
+
+.tag .tag-name {
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.tag-body .tag-first {
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+}
+
+.tag-body a {
+    text-decoration: none;
+    color: #353131;
+    font-size: 12px;
+    padding: 2px 9px;
+    background-color: #ccc;
+}
+
+
+/* footer */
+
+footer {
+    background-color: #616161;
+    color: #fff;
+    margin-top: 20px;
+    padding: 32px 22px;
+}
+
+footer .btn {
+    padding: 15px 25px;
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+footer .btn-pre {
+    cursor: not-allowed;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer .btn-pre:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+footer .btn-next {
+    background-color: #000;
+    color: #fff;
+}
+
+footer .btn-next:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+footer p {
+    font-size: 15px;
+    color: #fff;
+}
+
+footer p a {
+    color: #fff;
+}
+
+
+/* reponsive */
+
+
+/* mobile àn tablet */
+
+@media (max-width: 1023px) {
+    .container {
+        display: inline-block;
+    }
+    .content-left {
+        width: 90%;
+        margin: auto;
+    }
+    .content-right {
+        width: 90%;
+        margin: auto;
+    }
+}
